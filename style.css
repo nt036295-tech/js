@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+}
+button{
+    font-size: 5vw;
+    width: 53%;
+}
+h1,h2{
+     font-size: 3vw;
+}
+.one{
+    font-size: 5vw;
+    width: 53%;
+}
+.hideshoww{}
+.hideshow{
+    display: inline-flex;
+}
+.hideshow button{
+    width: 34vw;
+}
+.pera{}
+.pera h2{
+     font-size: 3vw;
+}
+
+
+
+
+.twoinone{}
+.twoinoneone{}
+.twoinoneone button{width: 34vw;}
+.graph{}
+.graph h2{font-size: 3vw;}
+
+
+
+.square{}
+.squareone{}
+.squareone button{}
+.all{display: inline-flex;}
+.squaretwo{
+    width: 10vw;
+    height: 10vw;
+    background: rgb(121, 21, 69);
+}
+.squarethree{
+    width: 10vw;
+    height: 10vw;
+    background: rgb(14, 129, 66);
+}
+.squarefour{
+   width: 10vw;
+    height: 10vw;
+    background: rgb(192, 88, 138);
+}
+.squarefive{
+    width: 10vw;
+    height: 10vw;
+    background: rgb(135, 11, 146);
+}
+.squaresix{
+   width: 10vw;
+    height: 10vw;
+    background: rgb(11, 92, 106);
+}
+.squareseven{
+    width: 10vw;
+    height: 10vw;
+    background: rgb(6, 104, 58);
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class29</title>
+    <link rel="stylesheet" href="../class29/css/style.css">
+</head>
+<body>
+    
+        
+    <div class="oneeee">
+    <button class="two">Disney</button>
+    <h1>The official Disney Princess franchise consists of 13 heroines—Snow White, Cinderella, Aurora, Ariel, Belle, Jasmine, Pocahontas, Mulan, Tiana, Rapunzel, Merida, Moana, and Raya—celebrated for their courage, kindness, and independence. This global brand, spanning movies, merchandise, and park experiences, features characters known for their, unique stories and empowering qualities.</h1>
+    
+    <button class="one">Disney</button>
+    <h2>The official Disney Princess franchise consists of 13 heroines—Snow White, Cinderella, Aurora, Ariel, Belle, Jasmine, Pocahontas, Mulan, Tiana, Rapunzel, Merida, Moana, and Raya—celebrated for their courage, kindness, and independence. This global brand, spanning movies, merchandise, and park experiences, features characters known for their, unique stories and empowering qualities.</h2>
+
+    </div>
+
+
+
+                 <!--Click To watch more-->
+
+    
+    <div class="hideshoww">
+    <div class="hideshow">
+        <button class="hideshowone">More</button>
+        <button class="hideshowtwo">less</button>
+    </div>
+    <div class="pera">
+        <h2 class="peraone">The official Disney Princess franchise consists of 13 heroines—Snow White, Cinderella, Aurora, Ariel, Belle, Jasmine, Pocahontas, Mulan, Tiana, Rapunzel, Merida, Moana, and Raya—celebrated for their courage, kindness, and independence. This global brand, spanning movies, merchandise, and park experiences, features characters known for their, unique stories and empowering qualities.</h2>
+    </div>
+    </div>
+
+    
+    <div class="twoinone">
+    <div class="twoinoneone">
+        <button class="twoinoneoneone">less&More</button>
+    </div>
+    <div class="graph">
+        <h2 class="graphone">The official Disney Princess franchise consists of 13 heroines—Snow White, Cinderella, Aurora, Ariel, Belle, Jasmine, Pocahontas, Mulan, Tiana, Rapunzel, Merida, Moana, and Raya—celebrated for their courage, kindness, and independence. This global brand, spanning movies, merchandise, and park experiences, features characters known for their, unique stories and empowering qualities.</h2>
+    </div>
+    </div>
+
+
+
+    <div class="square">
+        <div class="squareone">
+            <button class="squareoneone">show</button>
+        </div >  
+        <div class="all">`
+            <div class="squaretwo">
+            </div>
+            <div class="squarethree">
+            </div>
+            <div class="squarefour">
+            </div>
+            <div class="squarefive">
+            </div>
+            <div class="squaresix">
+            </div>
+            <div class="squareseven">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js">  </script>           <!--js-->
+    <script>
+       $(document).ready(function(){
+
+        $(".two").click(function(){
+            $("h1").hide(4000);
+            $("h1").show(6000);
+        });
+        $(".one").click(function(){
+            $("h2").hide(4000);
+        });
+        $(".hideshowone").click(function(){
+            $(".peraone").show(4000);
+        });
+       
+       $(".hideshowtwo").click(function(){
+            $(".peraone").hide(6000);
+       });
+       $(".twoinoneoneone").click(function(){
+            $(".graphone").toggle(4000);
+       });
+       $(".squareoneone").click(function(){
+        $(".squaretwo").toggle(1000);
+       });
+
+       $(".squareoneone").click(function(){
+            $(".squarethree").fadeToggle(2000);
+            $(".squarefour").fadeToggle(2000);
+            $(".squarefive").fadeToggle(2000);
+            $(".squaresix").fadeToggle(2000);
+            $(".squareseven").fadeToggle(2000);
+
+       });
+       });
+    </script> 
+</body>
+</html>
